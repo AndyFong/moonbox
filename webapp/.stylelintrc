@@ -1,0 +1,11 @@
+{
+  "processors": [],
+  "extends": [
+    "stylelint-config-recommended"
+  ],
+  "rules": {
+    "selector-pseudo-class-no-unknown": [true, {
+      ignorePseudoClasses: ["global"]
+    }]
+  }
+}
